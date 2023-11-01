@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Kimshabu Houston</title>
+    <meta charset="UTF-8">
+    <!--stay size-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+    body,h1,h5 {font-family: "Raleway", sans-serif}
+    body, html {height: 100%}
+    .bgimg {
+      background-image: url('https://www.shabuhousenj.com/wp-content/uploads/2022/01/Shabu_27-M.jpg');
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+    </style>
+  </head>
+<body>
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p>Taste True Wellness</p>
+  </div>
+  
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
+    <p><button onclick="document.getElementById('price').style.display='block'" class="w3-button w3-black">price</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p> 
+  </div>
+
+  <!--Social Media Link-->
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-large">sunday - thursday 11-22 | friday - saturday 11-23 | mon-fri 3-5 break time</p> 
+    <p class="w3-large"><b>10016 Long Point Rd, Houston, TX77055</p>
+    <p>Chief Executive Officer : Isaac Kim</p>
+   <div class="contact-links">
+    <a 
+       id="profile-link"
+       href="https://www.facebook.com/kimshabutx" 
+       class="btn contact-details"
+      >
+      <i class="fa fa-facebook-square fa-3x"></i>
+    </a>&nbsp;&nbsp;&nbsp;
+    <a
+      id="profile-link"
+      href="https://www.instagram.com/kim_shabu_tx/"
+      target="_blank"
+      class="btn contact-details"
+      >
+      <i class="fa fa-instagram fa-3x"></i>
+    </a>&#160;&#160;&#160;
+    <a 
+       id="profile-link"
+       href="https://www.tiktok.com/discover/kim-shabu-houston" 
+       class="btn contact-details"
+      >
+      <i class="fa fa-viadeo-square fa-3x"></i>
+    </a>&#160;&#160;&#160;
+    <a 
+       id="profile-link"
+       href="https://www.yelp.com/reservations/kim-shabu-houston?from_reserve_now=1&fbclid=PAAabU6OrepsiANI1oDvS5BZ-RDaciLbm9GG0Gn4-iupIX9vjc-pW-bx1-K9o" 
+       class="btn contact-details"
+      >
+      <i class="fa fa-yelp" style="font-size:48px;color:red"></i>
+    </a>
+   </div>
+  </div>
+</div>
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Kimshabu Menu</h1>
+    </div>
+    <div class="w3-container">
+      <table>
+    <tr><th> <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*32YvwmaGhkuEhXHM_VnVOw.jpeg" alt="menu" width="300x" height="250x"></th></tr>
+    <tr><td> <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*Eq7fqd7AtiZ-QLCFN4s2Ww.jpeg" alt="menu" width="300x" height="250x"></td></tr>
+      </table>
+    
+    </div>
+  </div>
+</div>
+
+<!-- Price Modal -->
+<div id="price" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('price').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Lunch</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Adult <b> $21.99</b></h5>
+      <h5>Seniors(65+) <b>10% off </b></h5>
+      <h5>Children (4~10) years old with own pot <b>$15.99 </b></h5>
+      <h5>Children (4~10) years old with shared pot <b>$10.99 </b></h5>
+      <h5>Vegetarian <b>$18.99</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Dinner</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Adult <b>$31.99</b></h5>
+      <h5>Seniors(65+) <b>10% off </b></h5>
+      <h5>Children (4~10) years old with own pot <b>$19.99</b></h5>
+      <h5>Children (4~10) years old with shared pot <b>$12.99</b></h5>
+      <h5>Vegetarian <b>$23.99</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Desserts</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Fruit <b>*Free</b></h5>
+      <h5>Ice cream <b>*Free</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Drinks</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Wine (glass)<b>$9</b></h5>
+      <h5>Hot Sake <b>$6</b></h5>
+      <h5>Soju <b>$15</b></h5>
+      <h5>Beer (Domestic/Import) <b>$3.49 / $4.95</b></h5>
+      <h5>Iced Tea <b>$3.49  *Free refill</b></h5> 
+      <h5>Soft Drinks <b>$2.49</b></h5>      
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contact</h1>
+    </div>
+    <div class="w3-container">
+    <a 
+       id="profile-link"
+       href="https://www.google.com/maps/place/Kim+Shabu/@29.7948762,-95.5435219,17z/data=!3m1!4b1!4m6!3m5!1s0x8640c4ea00a295b3:0x1d521194910083f!8m2!3d29.7948762!4d-95.5409416!16s%2Fg%2F11clyd2xgp?entry=ttux" 
+       class="btn contact-details"
+      >
+      <i class="fas fa-map-marker-alt fa-3x"></i>&nbsp;&nbsp;Kimshabu
+    </a><br><br>
+     <a 
+       id="profile-link"
+       href="tel:408-981-7007" 
+       class="btn contact-details"
+      >
+      <i class="fas fa-phone-square fa-3x"></i>&nbsp;&nbsp;+1 713-463-8870
+    </a><br><br>
+    </div>
+  </div>
+</div>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+
+<!-- START CONTACT SECTION -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS glowing icons</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- END CONTACT SECTION -->
+</body>
+</html>
